@@ -1,5 +1,5 @@
 # Author: Michael Lavallee mal6423@gmail.com
-# Collaborator:
+# Collaborator: 
 # Collaborator:
 # Collaborator:
 # Section: 
@@ -7,7 +7,7 @@
 
 
 grade = float(input("Enter your CMPSC 131 grade: "))
-def conv(grade):
+def getLetterGrade(grade):
   if grade > 93:
     return "A"
   elif grade > 90 and grade <= 93:
