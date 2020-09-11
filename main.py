@@ -29,4 +29,4 @@ def getLetterGrade(grade):
   else:
     return "Error"
 
-print(f"Your letter grade for CMPSC 131 is: {conv(grade)}.")
+print(f"Your letter grade for CMPSC 131 is: {getLetterGrade(grade)}.")
