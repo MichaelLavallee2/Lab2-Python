@@ -11,7 +11,7 @@ def run():
 def getLetterGrade(grade):
   if grade >= 93:
     return "A"
-  elif grade > 90 and grade < 93:
+  elif grade >= 90 and grade < 93:
     return "A-"
   elif grade < 90 and grade >= 87:
     return "B+"
